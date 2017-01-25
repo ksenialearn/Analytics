@@ -37,7 +37,7 @@ def getDate(url):
                     
                    
 with open('listings.csv', 'w') as f:
-    for x in range(1,10): #loop through 100 pages
+    for x in range(1,100): #loop through 100 pages
         url=package_url_rent(str(x))
         print url
         html = urllib.urlopen(url).read()
