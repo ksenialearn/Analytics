@@ -1,0 +1,12 @@
+
+INSERT INTO h1bdata.data (id,
+CASE_STATUS, EMPLOYER_NAME, SOC_NAME, JOB_TITLE, FULL_TIME_POSITION, 
+              PREVAILING_WAGE, YEAR,
+              WORKSITE, lon, lat)
+              VALUES(0,
+              'CERTIFIED-WITHDRAWN',	'UNIVERSITY OF MICHIGAN',	'BIOCHEMISTS AND BIOPHYSICISTS',	'POSTDOCTORAL RESEARCH FELLOW',	'N',
+              36067.0,	2016,
+              'ANN ARBOR, MICHIGAN', -83.743038,	42.280826)
+			
+            
+            
