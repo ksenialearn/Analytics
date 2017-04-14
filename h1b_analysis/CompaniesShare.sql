@@ -1,0 +1,5 @@
+SELECT EMPLOYER_NAME, COUNT(id) AS NumberApplications, COUNT(id)/(SELECT COUNT(id) FROM h1bdata.data)*100 AS ShareOfTotalAsPercent
+FROM h1bdata.data
+WHERE YEAR = 2016
+GROUP BY EMPLOYER_NAME
+ORDER BY COUNT(id) DESC;
